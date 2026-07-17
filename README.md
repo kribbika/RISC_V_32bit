@@ -55,6 +55,7 @@ Any SystemVerilog-capable simulator, e.g.:
 - [Icarus Verilog](http://iverilog.icarus.com/) (`iverilog` + `vvp`)
 - [Verilator](https://www.veripool.org/verilator/)
 - Vivado / Questa / VCS
+- ModelSim
 
 ### Running the Simulation
 
@@ -62,6 +63,7 @@ Any SystemVerilog-capable simulator, e.g.:
 <img width="890" height="98" alt="image" src="https://github.com/user-attachments/assets/52ac6789-7b52-449c-850d-3bbe8193e0e8" />
 
 
+With input array {8, -21, 15, -3, 42, 17}, the maximum is 42. After simulation, the final maximum number is stored in the 6th position in memory therefore data_memory address 24 (0x18) should contain 0x0000002A (42).
 
 
 
