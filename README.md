@@ -75,7 +75,7 @@ iverilog -g2012 -o sim.out \
 
 # Run
 vvp sim.out
-'''
+
 
 > **Note:** `instruction_memory.sv` loads program contents from `machine_code.mem` via `$readmemh`. Make sure `machine_code.mem` is in the simulator's working directory (or update the path in `instruction_memory.sv`).
 
