@@ -108,7 +108,7 @@ end
 ├── alu.sv                   # Arithmetic/logic unit
 ├── instruction_memory.sv    # Instruction ROM
 ├── data_memory.sv           # Data RAM
-├── machine_code.mem         # Program image (hex)
+├── machine_code.mem         # Program (hex)
 └── test_bench.sv            # Testbench / simulation driver
 ```
 
